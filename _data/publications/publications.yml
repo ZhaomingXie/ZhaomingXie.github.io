@@ -1,0 +1,22 @@
+papers: >
+  #### Conferences
+
+  <table>
+  <colgroup>
+    <col width="20%" />
+    <col width="80%" />
+  </colgroup>
+  <tbody>
+  <tr>
+    <td markdown="span"> <img src="/assets/img/publications/CDDP.png" align="right" alt="Drawing" style="height: 70px; margin:0px 10px"/></td>
+    <td markdown="span">[Differential Dynamic Programming with Nonlinear Constraints](/publications/CDDP.pdf).
+    Zhaoming Xie, C. Karen Liu, and Kris Hauser, in IEEE International Conference on Robotics and Automation (ICRA), 2017</td>
+  </tr>
+  <tr height ="10px"></tr>
+  <tr>
+    <td markdown="span"> <img src="/assets/img/publications/simulationBasedDesign.png" align="right" alt="Drawing" style="height: 70px; margin:0px 10px"/></td>
+    <td markdown="span">[Simulation-Based Design of Dynamic Controllers for Humanoid Balancing](/publications/simulationBasedDesign.pdf).
+    Jie Tan, Zhaoming Xie, Byron Boots, and C. Karen Liu, in IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2016</td>
+  </tr>
+  </tbody>
+  </table>
