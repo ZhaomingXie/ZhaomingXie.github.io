@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-03T13:56:10-07:00</updated><id>http://localhost:4000/</id><title type="html">Zhaoming Xie</title><subtitle>Zhaoming Xie - homepage</subtitle><author><name>Zhaoming Xie</name></author><entry><title type="html">Review: Coursera Machine Learning</title><link href="http://localhost:4000/cmastalli.github.io/coursera-machine-learning.html" rel="alternate" type="text/html" title="Review: Coursera Machine Learning" /><published>2018-01-23T00:00:00-08:00</published><updated>2018-01-23T00:00:00-08:00</updated><id>http://localhost:4000/cmastalli.github.io/coursera-machine-learning</id><content type="html" xml:base="http://localhost:4000/cmastalli.github.io/coursera-machine-learning.html">&lt;p&gt;I’ve recently completed Andrew Ng’s Machine Learning course on Coursera and I am blown away at how clearly he explains and breaks down machine learning concepts and algorithms.  I appreciate the level of detail Andrew goes into each of his videos and how he explains the concepts as well as the math behind each algorithm.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-03T13:57:53-07:00</updated><id>http://localhost:4000/</id><title type="html">Zhaoming Xie</title><subtitle>Zhaoming Xie - homepage</subtitle><author><name>Zhaoming Xie</name></author><entry><title type="html">Review: Coursera Machine Learning</title><link href="http://localhost:4000/coursera-machine-learning.html" rel="alternate" type="text/html" title="Review: Coursera Machine Learning" /><published>2018-01-23T00:00:00-08:00</published><updated>2018-01-23T00:00:00-08:00</updated><id>http://localhost:4000/coursera-machine-learning</id><content type="html" xml:base="http://localhost:4000/coursera-machine-learning.html">&lt;p&gt;I’ve recently completed Andrew Ng’s Machine Learning course on Coursera and I am blown away at how clearly he explains and breaks down machine learning concepts and algorithms.  I appreciate the level of detail Andrew goes into each of his videos and how he explains the concepts as well as the math behind each algorithm.&lt;/p&gt;
 
 &lt;p&gt;Here are the topics that were covered in the course:&lt;/p&gt;
 &lt;ul&gt;
@@ -24,62 +24,7 @@
 
 &lt;p&gt;Along the way, Andrew also discussed various tips that can improve your algorithm and also common mistakes that people make when building machine learning systems.&lt;/p&gt;
 
-&lt;p&gt;I really appreciate the work put into developing this course and I am glad I decided to take it. I would highly recommend anyone interested in machine learning to definitely take this course as it provides a solid introduction to various machine learning topics and sets a good foundation for jumping into more advanced courses.&lt;/p&gt;</content><author><name>Zhaoming Xie</name></author><summary type="html">I’ve recently completed Andrew Ng’s Machine Learning course on Coursera and I am blown away at how clearly he explains and breaks down machine learning concepts and algorithms. I appreciate the level of detail Andrew goes into each of his videos and how he explains the concepts as well as the math behind each algorithm.</summary></entry><entry><title type="html">Review: Coursera Machine Learning</title><link href="http://localhost:4000/coursera-machine-learning.html" rel="alternate" type="text/html" title="Review: Coursera Machine Learning" /><published>2018-01-23T00:00:00-08:00</published><updated>2018-01-23T00:00:00-08:00</updated><id>http://localhost:4000/coursera-machine-learning</id><content type="html" xml:base="http://localhost:4000/coursera-machine-learning.html">&lt;p&gt;I’ve recently completed Andrew Ng’s Machine Learning course on Coursera and I am blown away at how clearly he explains and breaks down machine learning concepts and algorithms.  I appreciate the level of detail Andrew goes into each of his videos and how he explains the concepts as well as the math behind each algorithm.&lt;/p&gt;
-
-&lt;p&gt;Here are the topics that were covered in the course:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Supervised Learning
-    &lt;ul&gt;
-      &lt;li&gt;Linear regression&lt;/li&gt;
-      &lt;li&gt;Logistic regression&lt;/li&gt;
-      &lt;li&gt;Neural Networks&lt;/li&gt;
-      &lt;li&gt;Support vector machines&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Unsupervised Learning
-    &lt;ul&gt;
-      &lt;li&gt;K-means&lt;/li&gt;
-      &lt;li&gt;Principal Component Analysis&lt;/li&gt;
-      &lt;li&gt;Anomaly Detection&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Recommender Systems&lt;/li&gt;
-  &lt;li&gt;Large Scale Machine Learning&lt;/li&gt;
-  &lt;li&gt;Advice on building a machine learning system&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Along the way, Andrew also discussed various tips that can improve your algorithm and also common mistakes that people make when building machine learning systems.&lt;/p&gt;
-
-&lt;p&gt;I really appreciate the work put into developing this course and I am glad I decided to take it. I would highly recommend anyone interested in machine learning to definitely take this course as it provides a solid introduction to various machine learning topics and sets a good foundation for jumping into more advanced courses.&lt;/p&gt;</content><author><name>Zhaoming Xie</name></author><summary type="html">I’ve recently completed Andrew Ng’s Machine Learning course on Coursera and I am blown away at how clearly he explains and breaks down machine learning concepts and algorithms. I appreciate the level of detail Andrew goes into each of his videos and how he explains the concepts as well as the math behind each algorithm.</summary></entry><entry><title type="html">A New Beginning</title><link href="http://localhost:4000/cmastalli.github.io/a-new-beginning.html" rel="alternate" type="text/html" title="A New Beginning" /><published>2018-01-22T00:00:00-08:00</published><updated>2018-01-22T00:00:00-08:00</updated><id>http://localhost:4000/cmastalli.github.io/a-new-beginning</id><content type="html" xml:base="http://localhost:4000/cmastalli.github.io/a-new-beginning.html">&lt;h3 id=&quot;new-year-newsite&quot;&gt;New Year, New…..Site&lt;/h3&gt;
-&lt;p&gt;I’m currently in the process of updating the look of my site. I’m working on creating a clean page for projects with sections for different topics/technologies and also nice way of displaying my blog posts.  I eventually want to add tags to my projects and posts and include a way of viewing all of those tags, but that will come later.  I’m still trying to relearn my way around HTML, CSS, and Jekyll.&lt;/p&gt;
-
-&lt;p&gt;The following are features I want to include for my site:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Project Page
-    &lt;ul&gt;
-      &lt;li&gt;List of all projects&lt;/li&gt;
-      &lt;li&gt;Different sections for different technologies used/different topics&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Blog Page
-    &lt;ul&gt;
-      &lt;li&gt;Nice way of displaying blog posts. (What’s nice?)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Tags
-    &lt;ul&gt;
-      &lt;li&gt;List of all the tags for posts and projects&lt;/li&gt;
-      &lt;li&gt;Click on any tag to jump to all the posts/projects with that tag&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Hopefully I can finish all of this before the end of the week.&lt;/p&gt;
-
-&lt;h3 id=&quot;future-plans&quot;&gt;Future Plans&lt;/h3&gt;
-&lt;p&gt;I hope to use this site not only for my portfolio, but also to document and record my progress on different projects/online courses on my path to becoming a Data Scientist.  I hope to post a blog post at least every couple of days.&lt;/p&gt;
-
-&lt;p&gt;That’s all for now!&lt;/p&gt;</content><author><name>Zhaoming Xie</name></author><summary type="html">New Year, New…..Site I’m currently in the process of updating the look of my site. I’m working on creating a clean page for projects with sections for different topics/technologies and also nice way of displaying my blog posts. I eventually want to add tags to my projects and posts and include a way of viewing all of those tags, but that will come later. I’m still trying to relearn my way around HTML, CSS, and Jekyll.</summary></entry><entry><title type="html">A New Beginning</title><link href="http://localhost:4000/a-new-beginning.html" rel="alternate" type="text/html" title="A New Beginning" /><published>2018-01-22T00:00:00-08:00</published><updated>2018-01-22T00:00:00-08:00</updated><id>http://localhost:4000/a-new-beginning</id><content type="html" xml:base="http://localhost:4000/a-new-beginning.html">&lt;h3 id=&quot;new-year-newsite&quot;&gt;New Year, New…..Site&lt;/h3&gt;
+&lt;p&gt;I really appreciate the work put into developing this course and I am glad I decided to take it. I would highly recommend anyone interested in machine learning to definitely take this course as it provides a solid introduction to various machine learning topics and sets a good foundation for jumping into more advanced courses.&lt;/p&gt;</content><author><name>Zhaoming Xie</name></author><summary type="html">I’ve recently completed Andrew Ng’s Machine Learning course on Coursera and I am blown away at how clearly he explains and breaks down machine learning concepts and algorithms. I appreciate the level of detail Andrew goes into each of his videos and how he explains the concepts as well as the math behind each algorithm.</summary></entry><entry><title type="html">A New Beginning</title><link href="http://localhost:4000/a-new-beginning.html" rel="alternate" type="text/html" title="A New Beginning" /><published>2018-01-22T00:00:00-08:00</published><updated>2018-01-22T00:00:00-08:00</updated><id>http://localhost:4000/a-new-beginning</id><content type="html" xml:base="http://localhost:4000/a-new-beginning.html">&lt;h3 id=&quot;new-year-newsite&quot;&gt;New Year, New…..Site&lt;/h3&gt;
 &lt;p&gt;I’m currently in the process of updating the look of my site. I’m working on creating a clean page for projects with sections for different topics/technologies and also nice way of displaying my blog posts.  I eventually want to add tags to my projects and posts and include a way of viewing all of those tags, but that will come later.  I’m still trying to relearn my way around HTML, CSS, and Jekyll.&lt;/p&gt;
 
 &lt;p&gt;The following are features I want to include for my site:&lt;/p&gt;
