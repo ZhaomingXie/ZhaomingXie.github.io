@@ -23,6 +23,10 @@ papers: >
 
   #### Posters
   <table>
+  <colgroup>
+    <col width="20%" />
+    <col width="80%" />
+  </colgroup>
   <tbody>
   <tr>
     <td markdown="span"> <img src="/assets/img/publications/DW2018.png" align="right" alt="Drawing" style="height: 70px; margin:0px 10px"/></td>
