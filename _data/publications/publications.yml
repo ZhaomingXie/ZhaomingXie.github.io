@@ -34,15 +34,15 @@ papers: >
     <col width="80%" />
   </colgroup>
   <tbody>
+    <tr>
+        <td markdown="span"> <img src="/assets/img/publications/DW2019.png" align="right" alt="Drawing" style="height: 70px; margin:0px 10px"/></td>
+        <td markdown="span">[Iterative Gait Design For Cassie With DeepRL](/publications/DynamicWalking2019.pdf).
+        Zhaoming Xie, Patrick Clary, Jeremy Dao, Pedro Morais, Jonathan Hurst and Michiel van de Panne in Dynamic Walking, 2019</td>
+    </tr>
   <tr>
     <td markdown="span"> <img src="/assets/img/publications/DW2018.png" align="right" alt="Drawing" style="height: 70px; margin:0px 10px"/></td>
     <td markdown="span">[Feedback Control For Cassie With Deep Reinforcement Learning](/publications/DW2018.pdf).
     Zhaoming Xie, Glen Berseth, Patrick Clary, Jonathan Hurst and Michiel van de Panne in Dynamic Walking, 2018</td>
-  </tr>
-  <tr>
-    <td markdown="span"> <img src="/assets/img/publications/DW2018.png" align="right" alt="Drawing" style="height: 70px; margin:0px 10px"/></td>
-    <td markdown="span">[Iterative Gait Design For Cassie With DeepRL](/publications/DynamicWalking2019.pdf).
-    Zhaoming Xie, Patrick Clary, Jeremy Dao, Pedro Morais, Jonathan Hurst and Michiel van de Panne in Dynamic Walking, 2019</td>
   </tr>
   </tbody>
   </table>
