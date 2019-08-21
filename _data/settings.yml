@@ -59,9 +59,6 @@ research: >
 #-------------------------------
 # Work Section
 
-projects:
-- {name: 'Hierarchical Planning of Dynamic Movements without Scheduled Contact Sequences', folder: 'hierarchical', file: 'projects/hierarchical.html'}
-- {name: 'Planning and Execution of Dynamic Whole-Body Locomotion for a Hydraulic Quadruped on Challenging Terrain', folder: 'decoupled', file: 'projects/decoupled.html'}
 
 
 #-------------------------------
