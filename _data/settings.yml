@@ -4,7 +4,7 @@ title: Zhaoming
 
 menu:
 #- {name: 'About', url: ''}
-- {name: 'Research', url: 'publications.html'}
+- {name: 'Publication', url: 'publications.html'}
 #- {name: 'Software', url: 'software.html'}
 #- {name: 'Projects', url: 'projects.html'}
 - {name: 'Contact', url: 'contact.html'}
