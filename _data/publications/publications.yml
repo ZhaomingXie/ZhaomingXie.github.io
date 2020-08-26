@@ -8,8 +8,8 @@ papers: >
   </colgroup>
   <tbody>
   <tr>
-  <td markdown="span"> <img src="/assets/img/publications/DW2019.png" align="right" alt="Drawing" style="height: 70px; margin:0px 10px"/></td>
-  <td markdown="span">[Learning Locomotion Skills for Cassie: Iterative Design and Sim-to-Real](/publications/corl_2019.pdf). Zhaoming Xie, Patrick Clary, Jeremy Dao, Pedro Morais, Jonathan Hurst and Michiel van de Panne, in Conference on Robot Learning (CORL), 2019</td>
+  <td markdown="span"> <img src="/assets/img/publications/AllStep.png" align="right" alt="Drawing" style="height: 70px; margin:0px 10px"/></td>
+<td markdown="span">[ALLSTEPS: Curriculumn-driven Learning of Stepping Stone Skills](/publications/allstep.pdf). Zhaoming Xie, Hung Yu Ling, Nam Hee Kim and Michiel van de Panne, in Symposium of Computer Animation (SCA), 2020</td>
   </tr>
   <tr height ="10px"></tr>
   <tr>
