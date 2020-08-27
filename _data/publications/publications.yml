@@ -9,12 +9,12 @@ papers: >
   <tbody>
   <tr>
   <td markdown="span"> <img src="/assets/img/publications/AllStep.png" align="right" alt="Drawing" style="height: 70px; margin:0px 10px"/></td>
-<td markdown="span">[ALLSTEPS Curriculumn Driven Learning of Stepping Stone Skills](/publications/corl_2019.pdf). Zhaoming Xie, Patrick Clary, Jeremy Dao, Pedro Morais, Jonathan Hurst and Michiel van de Panne, in Conference on Robot Learning (CORL), 2019</td>
+  <td markdown="span">[ALLSTEPS: Curriculum-driven Learning of Stepping Stone Skills](/publications/corl_2019.pdf). Zhaoming Xie, Patrick Clary, Jeremy Dao, Pedro Morais, Jonathan Hurst and Michiel van de Panne, in Conference on Robot Learning (CORL), 2019</td>
   </tr>
   <tr height ="10px"></tr>
   <tr>
   <td markdown="span"> <img src="/assets/img/publications/l2cds.png" align="right" alt="Drawing" style="height: 70px; margin:0px 10px"/></td>
-  <td markdown="span">[Learning to Correspond Dynamical Systems](/publications/L2CDS.pdf). Nam Hee Kim, Zhaoming Xie and Michiel van de Panne, in Learning for Dynamics and Control (l4dc), 2020</td>
+  <td markdown="span">[Learning to Correspond Dynamical Systems](/publications/corl_2019.pdf). Nam Hee Kim, Zhaoming Xie and Michiel van de Panne, in Learning for Dynamics and Control (l4dc), 2020</td>
   </tr>
   <tr height ="10px"></tr> 
   <tr>
