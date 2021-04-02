@@ -9,8 +9,10 @@ papers: >
   <tbody>
 
   <tr>
-  <td markdown="span"> <img src="/assets/img/publications/adaptive_gait.png" align="right" alt="Drawing" style="height: 70px; margin:0px 10px"/></td>
-<td markdown="span">[Learning a Contact-Adaptive Controller for Robust, Efficient Legged Locomotion](/publications/adaptive_gait.pdf). Xinye Da, Zhaoming Xie, David Hoeller, Byron Boots, Animashree Anandkumar, Yuke Zhu, Buck Babich and Animesh Garg, in Conference on Robot Learning (CORL), 2020</td>
+    <td markdown="span"> 
+      <img src="/assets/img/publications/adaptive_gait.png" align="right" alt="Drawing" style="height: 70px; margin:0px 10px"/>
+    </td>
+    <td markdown="span">[Learning a Contact-Adaptive Controller for Robust, Efficient Legged Locomotion](/publications/adaptive_gait.pdf). Xinye Da, Zhaoming Xie, David Hoeller, Byron Boots, Animashree Anandkumar, Yuke Zhu, Buck Babich and Animesh Garg, in Conference on Robot Learning (CORL), 2020</td>
   </tr>
   <tr height ="10px"></tr>
 
