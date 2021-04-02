@@ -10,9 +10,17 @@ papers: >
 
     <tr>
     <td markdown="span"> 
+      <img src="/assets/img/publications/centroidal_RL.png" align="right" alt="Drawing" style="height: 180px; margin:0px 10px"/>
+    </td>
+    <td markdown="span">[GLiDE: Generalizable Quadrupedal Locomotion in Diverse Environments with a Centroidal Model](/publications/centroidal.pdf). Zhaoming Xie, Xingye Da, Buck Babich, Animesh Garg and Michiel van de Panne, under review, 2021</td>
+  </tr>
+  <tr height ="10px"></tr>
+
+    <tr>
+    <td markdown="span"> 
       <img src="/assets/img/publications/dynamic_randomization.png" align="right" alt="Drawing" style="height: 180px; margin:0px 10px"/>
     </td>
-    <td markdown="span">[Dynamics Randomization Revisited: A Case Study for Quadrupedal Locomotion](/publications/dynamic_randomization.pdf). Zhaoming Xie, Xingye Da, Michiel van de Panne, Buck Babich, Animesh Garg, IEEE International Conference on Robotics and Automation (ICRA), 2021</td>
+    <td markdown="span">[Dynamics Randomization Revisited: A Case Study for Quadrupedal Locomotion](/publications/dynamic_randomization.pdf). Zhaoming Xie, Xingye Da, Michiel van de Panne, Buck Babich and Animesh Garg, IEEE International Conference on Robotics and Automation (ICRA), 2021</td>
   </tr>
   <tr height ="10px"></tr>
 
