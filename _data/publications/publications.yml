@@ -8,6 +8,14 @@ papers: >
   </colgroup>
   <tbody>
 
+    <tr>
+    <td markdown="span"> 
+      <img src="/assets/img/publications/dynamic_randomization.png" align="right" alt="Drawing" style="height: 180px; margin:0px 10px"/>
+    </td>
+    <td markdown="span">[Dynamics Randomization Revisited: A Case Study for Quadrupedal Locomotion](/publications/dynamic_randomization.pdf). Zhaoming Xie, Xingye Da, Michiel van de Panne, Buck Babich, Animesh Garg, IEEE International Conference on Robotics and Automation (ICRA), 2021</td>
+  </tr>
+  <tr height ="10px"></tr>
+
   <tr>
     <td markdown="span"> 
       <img src="/assets/img/publications/adaptive_gait.png" align="right" alt="Drawing" style="height: 70px; margin:0px 10px"/>
