@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Thoughts on Roger Penrose's book 'The Emperor's New Mind' – Zhaoming Xie</title>
+    <meta name="description" content="Thoughts on Roger Penrose's book 'The Emperor's New Mind'.">
+
+    <meta property="og:title" content="Thoughts on Roger Penrose's book 'The Emperor's New Mind'">
+    <meta property="og:description" content="Thoughts on Roger Penrose's book 'The Emperor's New Mind'.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://ZhaomingXie.github.io/blog/posts/brain-vs-computer.html">
+    <link rel="canonical" href="https://ZhaomingXie.github.io/blog/posts/brain-vs-computer.html">
+
+    <!-- MathJax for LaTeX equation rendering -->
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                packages: { '[+]': ['ams'] },
+            },
+            options: {
+                skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+            }
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+
+    <style>
+        :root {
+            --accent-color: rgb(6, 69, 173);
+            --fg-color: rgb(32, 33, 34);
+            --bg-color: #fff;
+            --max-content-width: 800px;
+            --muted-color: rgb(90, 90, 100);
+            --code-bg: #f5f5f5;
+        }
+
+        body {
+            font-family: sans-serif;
+            font-size: calc(12px + 0.05vw);
+            color: var(--fg-color);
+            background-color: var(--bg-color);
+            font-weight: 400;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        main {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: 90vw;
+            max-width: var(--max-content-width);
+            padding: 2rem 0 4rem;
+            background-color: var(--bg-color);
+            min-height: 90vh;
+        }
+
+        nav {
+            font-size: 1.2em;
+            margin-bottom: 2.5em;
+        }
+
+        h1 {
+            font-size: 2em;
+            font-weight: 700;
+            line-height: 1.25;
+            margin: 0 0 0.3em;
+        }
+
+        h2 {
+            font-size: 1.45em;
+            font-weight: 600;
+            margin-top: 2em;
+            margin-bottom: 0.4em;
+        }
+
+        h3 {
+            font-size: 1.2em;
+            font-weight: 600;
+            margin-top: 1.5em;
+            margin-bottom: 0.3em;
+        }
+
+        .post-date {
+            font-size: 1em;
+            color: var(--muted-color);
+            margin-bottom: 2em;
+            display: block;
+        }
+
+        p,
+        li {
+            font-size: 1.2em;
+            line-height: 1.75;
+        }
+
+        ul,
+        ol {
+            padding-left: 1.8em;
+        }
+
+        a {
+            text-decoration: underline;
+            color: var(--fg-color);
+        }
+
+        /* Inline and display math get a bit of breathing room */
+        .MathJax_Display,
+        mjx-container[display="true"] {
+            overflow-x: auto;
+            overflow-y: hidden;
+            padding: 0.5em 0;
+        }
+
+        code {
+            font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+            font-size: 0.88em;
+            background: var(--code-bg);
+            padding: 0.15em 0.35em;
+            border-radius: 3px;
+        }
+
+        pre {
+            background: var(--code-bg);
+            padding: 1em 1.3em;
+            border-radius: 6px;
+            overflow-x: auto;
+            font-size: 0.9em;
+            line-height: 1.55;
+        }
+
+        pre code {
+            background: none;
+            padding: 0;
+        }
+
+        blockquote {
+            border-left: 3px solid var(--accent-color);
+            margin: 1.5em 0;
+            padding: 0.1em 1.2em;
+            color: var(--muted-color);
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #e0e0e0;
+            margin: 2.5em 0;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <nav>
+            <a href="/blog/">← Blog</a>
+        </nav>
+
+        <article>
+            <h1>Thoughts on Roger Penrose's book 'The Emperor's New Mind'</h1>
+            <span class="post-date">April 4, 2026</span>
+
+            <img src="/blog/posts/emperor_new_mind.jpg" alt="Emperor's New Mind, by Roger Penrose" style="width: 25%;">
+
+            <p>
+                disclaimer: I might misunderstand some of Penrose's arguments and present them in my own biased view.
+            </p>
+
+            <p>
+                I recently read Roger Penrose's book "The Emperor's New Mind" and wanted to share some of my thoughts on
+                it.
+            </p>
+
+            <p>
+                The book discusses some limitation of computers that based on the computational model of a Turing
+                machine.
+                For example, Gödel's incompleteness theorems show that there are true statements that cannot be proved
+                by any formal system. However, the human brain can understand these statements and be convinced that
+                they
+                are true.
+            </p>
+
+            <p>
+                This discrpency between a Turing machine and the human brain suggests that there are more happening in
+                the human brain that
+                cannot be simulated by a computer.
+                In this regard, one might wonder whether the current AI paradigm will be able to gain consciousness or
+                sentience (whatever that means), as some distinguished AI researchers claim that they do.
+            </p>
+
+            <p>
+                Another interesting point that Penrose raise is the correspondence between the physical world and the
+                idealized Plato's world.
+                Penrose argues that rather than invented by humans, mathematical truths already exists in the Plato's
+                world waiting to be discoverd.
+                For example, the imaginary number $i$ was invented as a convenience tool to deal with the quadratic
+                equation $x^2 + 1 = 0$.
+                However, it turns out that $i$ is a fundamental part of various branches of mathematics and physics,
+                e.g., quantum mechanics.
+                Penrose also used examples of how mathematicians like himself first have a vague idea of a mathematical
+                idea, and although the idea is vague,
+                they are convinced that the idea is true and later on developed them into rigorous mathematical proofs.
+                In some sense, at that moment, the human conscious has made contact with the Plato's world.
+            </p>
+
+            <p>
+                Recently I have been studying physics, and one thing I realize is that the physical laws that we used to
+                describe the world are only limited to certain scenarios (all models are wrong, some model are useful).
+                For example, Newton's law breaks down at high
+                velocity, and incompatibility between general relativity and quantum mechanics. So, can the world ever
+                be
+                described by a mathematical framework? Or the best math can do is to approximate the world we live in.
+                It seems to me Penrose argues that there is a mathematical truth waiting to be discovered that can
+                explain
+                all physical reality.
+            </p>
+
+            <p>
+                I myself tends to believe that there is a mathematical truth out there waiting to be discovered.
+                Einstein comes up with his theory of
+                general relativity based on the equivalence principle and the mathematics of differential geometry. The
+                theory is not only
+                elegant, but also makes remarkably accurate prediction and enable advanced technologies such as GPS. The
+                success
+                of general relativity makes me believe in the existence of this correspondence between the Plato's world
+                and the physical world.
+            </p>
+
+            <p>
+                On a more practical side about how this relates to my research. Currently the field of legged robots is
+                dominated by deep learning. They are extremely successful, I myself did my PhD in this area and it is
+                arguably the best techniques we have. However, I do believe that model-based approaches such as model
+                predictive control will eventually catch up, we just haven't found the right formulation yet.
+            </p>
+
+            <hr>
+
+            <p style="font-size:1em; color: var(--muted-color);">
+                Questions or corrections? Reach me at
+                <a href="mailto:zxieaa@gmail.com">zxieaa@gmail.com</a>.
+            </p>
+        </article>
+    </main>
+</body>
+
+</html>

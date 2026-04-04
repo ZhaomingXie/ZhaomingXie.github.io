@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog – Zhaoming Xie</title>
+  <meta name="description" content="Zhaoming Xie's blog — thoughts on robotics, reinforcement learning, and more.">
+
+  <meta property="og:title" content="Blog – Zhaoming Xie">
+  <meta property="og:description" content="Thoughts on robotics, reinforcement learning, and more.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ZhaomingXie.github.io/blog/">
+  <link rel="canonical" href="https://ZhaomingXie.github.io/blog/">
+
+  <style>
+    :root {
+      --accent-color: rgb(6, 69, 173);
+      --fg-color: rgb(32, 33, 34);
+      --bg-color: #fff;
+      --max-content-width: 800px;
+      --muted-color: rgb(90, 90, 100);
+    }
+
+    body {
+      font-family: sans-serif;
+      font-size: calc(12px + 0.05vw);
+      color: var(--fg-color);
+      background-color: var(--bg-color);
+      font-weight: 400;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    main {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      width: 90vw;
+      max-width: var(--max-content-width);
+      padding: 2rem 0;
+      background-color: var(--bg-color);
+      min-height: 90vh;
+    }
+
+    h1,
+    h2 {
+      font-weight: 600;
+      margin-top: 1.3em;
+    }
+
+    h1 {
+      font-size: 2.2em;
+    }
+
+    h2 {
+      font-size: 1.9em;
+    }
+
+    p,
+    li {
+      font-size: 1.3em;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: underline;
+      color: var(--fg-color);
+    }
+
+    nav {
+      font-size: 1.2em;
+      margin-bottom: 2em;
+    }
+
+    /* ---- post list ---- */
+    .post-list {
+      list-style: none;
+      padding: 0;
+      margin-top: 1em;
+    }
+
+    .post-list li {
+      border-top: 1px solid #e0e0e0;
+      padding: 1.1em 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 0.4em;
+    }
+
+    .post-list li:last-child {
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .post-title {
+      font-size: 1.25em;
+      font-weight: 600;
+      flex: 1 1 60%;
+    }
+
+    .post-title a {
+      text-decoration: none;
+      color: var(--accent-color);
+    }
+
+    .post-title a:hover {
+      text-decoration: underline;
+    }
+
+    .post-meta {
+      font-size: 1em;
+      color: var(--muted-color);
+      flex: 0 0 auto;
+      white-space: nowrap;
+    }
+
+    .post-summary {
+      width: 100%;
+      font-size: 1.05em;
+      color: var(--muted-color);
+      margin: 0.2em 0 0;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <nav>
+      <a href="/">← Home</a>
+    </nav>
+
+    <h1>Blog</h1>
+    <p>Occasional thoughts on robotics, learning, math, and whatever else I find interesting.</p>
+
+    <ul class="post-list">
+      <!-- Most recent post first. Copy this <li> block to add a new post. -->
+      <li>
+        <span class="post-title">
+          <a href="/blog/posts/emperor-new-mind.html">Thoughts on Roger Penrose's book 'The Emperor's New Mind'</a>
+        </span>
+        <span class="post-meta">2026-04-04</span>
+        <span class="post-summary">
+          Thoughts on Roger Penrose's book 'The Emperor's New Mind'.
+        </span>
+      </li>
+    </ul>
+  </main>
+</body>
+
+</html>
