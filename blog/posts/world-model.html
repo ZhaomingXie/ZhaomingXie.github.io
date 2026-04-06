@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> What does world model learn? – Zhaoming Xie</title>
+    <meta name="description" content="Thoughts on World Model.">
+
+    <meta property="og:title" content="What does world model learn?">
+    <meta property="og:description" content="Thoughts on World Model.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://ZhaomingXie.github.io/blog/posts/world-model.html">
+    <link rel="canonical" href="https://ZhaomingXie.github.io/blog/posts/world-model.html">
+
+    <!-- MathJax for LaTeX equation rendering -->
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                packages: { '[+]': ['ams'] },
+            },
+            options: {
+                skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+            }
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+
+    <style>
+        :root {
+            --accent-color: rgb(6, 69, 173);
+            --fg-color: rgb(32, 33, 34);
+            --bg-color: #fff;
+            --max-content-width: 800px;
+            --muted-color: rgb(90, 90, 100);
+            --code-bg: #f5f5f5;
+        }
+
+        body {
+            font-family: sans-serif;
+            font-size: calc(12px + 0.05vw);
+            color: var(--fg-color);
+            background-color: var(--bg-color);
+            font-weight: 400;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        main {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: 90vw;
+            max-width: var(--max-content-width);
+            padding: 2rem 0 4rem;
+            background-color: var(--bg-color);
+            min-height: 90vh;
+        }
+
+        nav {
+            font-size: 1.2em;
+            margin-bottom: 2.5em;
+        }
+
+        h1 {
+            font-size: 2em;
+            font-weight: 700;
+            line-height: 1.25;
+            margin: 0 0 0.3em;
+        }
+
+        h2 {
+            font-size: 1.45em;
+            font-weight: 600;
+            margin-top: 2em;
+            margin-bottom: 0.4em;
+        }
+
+        h3 {
+            font-size: 1.2em;
+            font-weight: 600;
+            margin-top: 1.5em;
+            margin-bottom: 0.3em;
+        }
+
+        h4 {
+            font-size: 1.2em;
+            font-weight: 600;
+            margin-left: 1.5em;
+            margin-top: 1.5em;
+            margin-bottom: 0.3em;
+        }
+
+        .post-date {
+            font-size: 1em;
+            color: var(--muted-color);
+            margin-bottom: 2em;
+            display: block;
+        }
+
+        p,
+        li {
+            font-size: 1.2em;
+            line-height: 1.75;
+        }
+
+        ul,
+        ol {
+            padding-left: 1.8em;
+        }
+
+        a {
+            text-decoration: underline;
+            color: var(--fg-color);
+        }
+
+        /* Inline and display math get a bit of breathing room */
+        .MathJax_Display,
+        mjx-container[display="true"] {
+            overflow-x: auto;
+            overflow-y: hidden;
+            padding: 0.5em 0;
+        }
+
+        code {
+            font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+            font-size: 0.88em;
+            background: var(--code-bg);
+            padding: 0.15em 0.35em;
+            border-radius: 3px;
+        }
+
+        pre {
+            background: var(--code-bg);
+            padding: 1em 1.3em;
+            border-radius: 6px;
+            overflow-x: auto;
+            font-size: 0.9em;
+            line-height: 1.55;
+        }
+
+        pre code {
+            background: none;
+            padding: 0;
+        }
+
+        blockquote {
+            border-left: 3px solid var(--accent-color);
+            margin: 1.5em 0;
+            padding: 0.1em 1.2em;
+            color: var(--muted-color);
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #e0e0e0;
+            margin: 2.5em 0;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <nav>
+            <a href="/blog/">← Blog</a>
+        </nav>
+
+        <article>
+            <h1>What does world model learn?</h1>
+            <span class="post-date">April 6, 2026</span>
+
+            <p>
+                When I was doing my post-doc at Stanford, Tom Van Wouwe, a fellow post-doc was working on learning a
+                dynamic model
+                for some musckuloskeletal system. If I remember correctly, back then he was using OpenSim, which was
+                a popular simulation tool for biomechanics but was notoriously slow to run. The hope is that a learned
+                model can speed up the simulation by order of magnitudes. One day he asked me (I am paraphrasing here),
+                why should
+                we expect the learned model to run faster than the original simulation?
+            </p>
+
+            <p>
+                Now that the World Model has become a hot topic in robotics and AI, I thought about the conversation a
+                lot. In
+                the context of articulated rigid body simulation, which is my field of interest, what did the world
+                model trained
+                with simulation data really learn? I can think of three possibilities:
+            </p>
+
+            <h4> Possibility 1: The model learns a look up table of the training data, with some compression.
+                In this case, with enough training data, the model has good interpolation capability, and probably
+                extrapolate a bit. It can run much faster than the simulator, but I doubt it will generalize to unseen
+                states that is far away from the
+                training data.
+            </h4>
+
+            <h4> Possibility 2: The model learns the underlying physics of the system.
+                In this case, we can conjecture that the model probably implement the Featherstone algorithm with the
+                neural network. In this canse, should we expect the neural network to run faster than the simulator
+                itself?
+                One possibility is that the machine learning algorithm is smarter than us and is able to find an
+                implementation
+                that beats our hand-coded one. But that seems unlikely.
+            </h4>
+
+            <h4> Possibility 3: The model discovers another explaination of the data, i.e., forget about Newton's second
+                law,
+                there is another law of physics that is better and can be implemented faster. Again, seems unlikely.
+            </h4>
+
+            <p>
+                I am less interested in the first possibility (which I think is the most likely one), since a learned
+                look-up table,
+                while computationally more efficient, does not seem usable for real world planning that requires
+                generalization.
+                Now suppose the second or third possibilies are actually what happens, to me personally, it will be fun
+                to extract that more efficient
+                implementation or brand new law of physics than using the learned black box model for some downstream
+                tasks.
+            </p>
+
+            <p>
+                So that is my thought on the world model. Again, purely in the context of learning a dynamic model
+                for articulated rigid body simulation, which can be useful for research in legged robots or digital
+                humans. While I am skeptical about using a learned model to do planning (outside the region of the
+                training
+                data), a learned model does have other applications, e.g., a smooth local approximation of the dynamics
+                that
+                is inherently non-smooth due to contacts, enabling gradient based optimization (again, valid only
+                locally).
+                There might also be other possibilities that I haven't thought of. I am looking forward to be proven
+                wrong though, and see what the world model can bring to the field of robotics.
+            </p>
+
+            <hr>
+
+            <p style="font-size:1em; color: var(--muted-color);">
+                Questions or corrections? Reach me at
+                <a href="mailto:zxieaa@gmail.com">zxieaa@gmail.com</a>.
+            </p>
+        </article>
+    </main>
+</body>
+
+</html>
