@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Knowing vs Understanding – Zhaoming Xie</title>
+    <meta name="description" content="Thoughts on Knowing vs Understanding.">
+
+    <meta property="og:title" content="Knowing vs Understanding">
+    <meta property="og:description" content="Thoughts on Knowing vs Understanding.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://ZhaomingXie.github.io/blog/posts/knowing-vs-understanding.html">
+    <link rel="canonical" href="https://ZhaomingXie.github.io/blog/posts/knowing-vs-understanding.html">
+
+    <!-- MathJax for LaTeX equation rendering -->
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                packages: { '[+]': ['ams'] },
+            },
+            options: {
+                skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+            }
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+
+    <style>
+        :root {
+            --accent-color: rgb(6, 69, 173);
+            --fg-color: rgb(32, 33, 34);
+            --bg-color: #fff;
+            --max-content-width: 800px;
+            --muted-color: rgb(90, 90, 100);
+            --code-bg: #f5f5f5;
+        }
+
+        body {
+            font-family: sans-serif;
+            font-size: calc(12px + 0.05vw);
+            color: var(--fg-color);
+            background-color: var(--bg-color);
+            font-weight: 400;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        main {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: 90vw;
+            max-width: var(--max-content-width);
+            padding: 2rem 0 4rem;
+            background-color: var(--bg-color);
+            min-height: 90vh;
+        }
+
+        nav {
+            font-size: 1.2em;
+            margin-bottom: 2.5em;
+        }
+
+        h1 {
+            font-size: 2em;
+            font-weight: 700;
+            line-height: 1.25;
+            margin: 0 0 0.3em;
+        }
+
+        h2 {
+            font-size: 1.45em;
+            font-weight: 600;
+            margin-top: 2em;
+            margin-bottom: 0.4em;
+        }
+
+        h3 {
+            font-size: 1.2em;
+            font-weight: 600;
+            margin-top: 1.5em;
+            margin-bottom: 0.3em;
+        }
+
+        h4 {
+            font-size: 1.2em;
+            font-weight: 600;
+            margin-left: 1.5em;
+            margin-top: 1.5em;
+            margin-bottom: 0.3em;
+        }
+
+        .post-date {
+            font-size: 1em;
+            color: var(--muted-color);
+            margin-bottom: 2em;
+            display: block;
+        }
+
+        p,
+        li {
+            font-size: 1.2em;
+            line-height: 1.75;
+        }
+
+        ul,
+        ol {
+            padding-left: 1.8em;
+        }
+
+        a {
+            text-decoration: underline;
+            color: var(--fg-color);
+        }
+
+        /* Inline and display math get a bit of breathing room */
+        .MathJax_Display,
+        mjx-container[display="true"] {
+            overflow-x: auto;
+            overflow-y: hidden;
+            padding: 0.5em 0;
+        }
+
+        code {
+            font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+            font-size: 0.88em;
+            background: var(--code-bg);
+            padding: 0.15em 0.35em;
+            border-radius: 3px;
+        }
+
+        pre {
+            background: var(--code-bg);
+            padding: 1em 1.3em;
+            border-radius: 6px;
+            overflow-x: auto;
+            font-size: 0.9em;
+            line-height: 1.55;
+        }
+
+        pre code {
+            background: none;
+            padding: 0;
+        }
+
+        blockquote {
+            border-left: 3px solid var(--accent-color);
+            margin: 1.5em 0;
+            padding: 0.1em 1.2em;
+            color: var(--muted-color);
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #e0e0e0;
+            margin: 2.5em 0;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            margin: 2em 0;
+            border-radius: 8px;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <nav>
+            <a href="/blog/">← Blog</a>
+        </nav>
+
+        <article>
+            <h1>Knowing vs Understanding</h1>
+            <span class="post-date">April 10, 2026</span>
+
+            <p>
+                I came across this video recording of Richard Feynman titled "Knowing versus Understanding" when I was a
+                PhD student.
+            </p>
+
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/NM-zWTU7X-k" title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+
+            <p>
+                In the video, Feynman told a hypothetical story about how ancient people by observing the location of
+                the sun
+                and the moon, is able to come up with a bunch of steps of calculations, such that they can predict the
+                location
+                of the sun and the moon in the sky, and phenomena like eclipses at high accuracy. Then a young man came
+                along and proposed a theory that
+                the sun, the earth and the moon are spheres moving around each other. What greeted him was the question:
+                "How accurate can you predict the eclipse?" And people waved him off when he said his theory was still
+                under development.
+            </p>
+
+            <p> In my field of
+                legged robot control, reinforcement learning (RL) has taken over the field. Every other week, there will
+                be
+                a new video of humanoid robot doing cool stuff that I thought was still decades away when I was a PhD
+                student, such as dancing, playing table tennis and parkour. Behind the scene is this technology called
+                sim-to-real, where reinforcement learning is used to train policies for thousands of humanoids in
+                simulation and then deploy them to the real world.
+            </p>
+
+            <p>
+                It is remarkable how similar the situation is to Feynman's story. We have this neural network trained
+                with reinforcement learning, which under the hood, is a model that takes a bunch of steps of
+                calculations,
+                and come up with an action. While we have a pretty good theory of reinforcement learning itself, we
+                don't
+                really have a good theory of the policy that it comes up with, i.e., an analogue of the
+                sun-earth-moon system.
+            </p>
+
+            <p>
+                It used to be the case that model predictive control (MPC) was the state of the art in legged robot
+                control. But now in terms of demo that can impress people, RL is eating MPC alive. A guy who used
+                to work on MPC even joked during last year's ICRA that 2025 might be the last year where we can
+                still see MPC paper. And the phrase "bitter lesson" is being repeated more and more often.
+            </p>
+
+            <p>
+                However, even as a RL practictioner (I did my PhD thesis on RL for legged robot), I believe methods
+                that can provide some explainability to what the policy is doing is still valuable. This will be
+                the analogue of the theory of the sun-earth-moon are spheres moving around each other by the young
+                man in Feynman's story. I believe instead of abandoning the good old model-based control approach,
+                this is a perfect timing to pick it up. For one, there is a performance gap between model-based and
+                RL-based methods, that means the room for improvement and innovation is huge. Second, before we had
+                only a rough idea of how to control these robots well, now with reinforcement learning, we actually
+                have a computational model (albeit a black-box one) that can achieve this goal. We just need to
+                find out how to turn that into a white-box model (inverse optimal control?).
+            </p>
+
+            <p>
+                To summarize, while RL is hard to beat, we should be patient and not give up on model-based control.
+                In reality, it took hundreds of years, from Kepler, Newton, to Einstein,
+                to come up with the theory of general relativity that can describe astronomical phenomena.
+                And the theory turns out to be more than just providing accurate prediction, it enables practical
+                technologies such as GPS. For legged robot control, we probably won't need hundreds of years, I hope
+                that there are still enough people working on this and eventually come up with a breakthrough in my
+                lifetime.
+            </p>
+
+            <hr>
+
+            <p style="font-size:1em; color: var(--muted-color);">
+                Questions or corrections? Reach me at
+                <a href="mailto:zxieaa@gmail.com">zxieaa@gmail.com</a>.
+            </p>
+        </article>
+    </main>
+</body>
+
+</html>
