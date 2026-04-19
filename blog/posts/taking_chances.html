@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Taking Chances – Zhaoming Xie</title>
+    <meta name="description" content="Thoughts on Taking Chances.">
+
+    <meta property="og:title" content="Taking Chances">
+    <meta property="og:description" content="Thoughts on Taking Chances.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://ZhaomingXie.github.io/blog/posts/taking_chances.html">
+    <link rel="canonical" href="https://ZhaomingXie.github.io/blog/posts/taking_chances.html">
+
+    <!-- MathJax for LaTeX equation rendering -->
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                packages: { '[+]': ['ams'] },
+            },
+            options: {
+                skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+            }
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+
+    <style>
+        :root {
+            --accent-color: rgb(6, 69, 173);
+            --fg-color: rgb(32, 33, 34);
+            --bg-color: #fff;
+            --max-content-width: 800px;
+            --muted-color: rgb(90, 90, 100);
+            --code-bg: #f5f5f5;
+        }
+
+        body {
+            font-family: sans-serif;
+            font-size: calc(12px + 0.05vw);
+            color: var(--fg-color);
+            background-color: var(--bg-color);
+            font-weight: 400;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        main {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: 90vw;
+            max-width: var(--max-content-width);
+            padding: 2rem 0 4rem;
+            background-color: var(--bg-color);
+            min-height: 90vh;
+        }
+
+        nav {
+            font-size: 1.2em;
+            margin-bottom: 2.5em;
+        }
+
+        h1 {
+            font-size: 2em;
+            font-weight: 700;
+            line-height: 1.25;
+            margin: 0 0 0.3em;
+        }
+
+        h2 {
+            font-size: 1.45em;
+            font-weight: 600;
+            margin-top: 2em;
+            margin-bottom: 0.4em;
+        }
+
+        h3 {
+            font-size: 1.2em;
+            font-weight: 600;
+            margin-top: 1.5em;
+            margin-bottom: 0.3em;
+        }
+
+        h4 {
+            font-size: 1.2em;
+            font-weight: 600;
+            margin-left: 1.5em;
+            margin-top: 1.5em;
+            margin-bottom: 0.3em;
+        }
+
+        .post-date {
+            font-size: 1em;
+            color: var(--muted-color);
+            margin-bottom: 2em;
+            display: block;
+        }
+
+        p,
+        li {
+            font-size: 1.2em;
+            line-height: 1.75;
+        }
+
+        ul,
+        ol {
+            padding-left: 1.8em;
+        }
+
+        a {
+            text-decoration: underline;
+            color: var(--fg-color);
+        }
+
+        /* Inline and display math get a bit of breathing room */
+        .MathJax_Display,
+        mjx-container[display="true"] {
+            overflow-x: auto;
+            overflow-y: hidden;
+            padding: 0.5em 0;
+        }
+
+        code {
+            font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+            font-size: 0.88em;
+            background: var(--code-bg);
+            padding: 0.15em 0.35em;
+            border-radius: 3px;
+        }
+
+        pre {
+            background: var(--code-bg);
+            padding: 1em 1.3em;
+            border-radius: 6px;
+            overflow-x: auto;
+            font-size: 0.9em;
+            line-height: 1.55;
+        }
+
+        pre code {
+            background: none;
+            padding: 0;
+        }
+
+        blockquote {
+            border-left: 3px solid var(--accent-color);
+            margin: 1.5em 0;
+            padding: 0.1em 1.2em;
+            color: var(--muted-color);
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #e0e0e0;
+            margin: 2.5em 0;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            margin: 2em 0;
+            border-radius: 8px;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <nav>
+            <a href="/blog/">← Blog</a>
+        </nav>
+
+        <article>
+            <h1>Taking Chances</h1>
+            <span class="post-date">April 20, 2026</span>
+
+            <p>
+                In the book Thinking Fast and Slow by Daniel Kahneman, he talked about an experiment where people are
+                asked to choose between two options. I forgot the exact setting, but it was something like this:
+                The first option is to receive 1000 dollar for sure. The second option is to receive 2000 dollar with
+                50%
+                probability and 10 dollar with 50% probability. Most people choose the first option
+                even though the expected value of the second option is higher. This is due to the people tend to
+                be risk averse, and the gaurenteed money is more attractive than the uncertain money.
+            </p>
+
+            <p>
+                However, if instead of only allowing to choose once, people are given the choice to play multiple time,
+                then most people will start to make the second choice for the higher expected value. Daniel Kahneman
+                then
+                raises the questions about how people make choices in real life scenarios.
+            </p>
+
+            <p>
+                For example, if we are given two job opportunities, one is a job with high security and stable income,
+                where
+                one can live comfortably for sure. The other is like a startup with high risk, with the possibility that
+                one
+                can lose the job in a couple of years, or this company might be the next Google or Apple and one can
+                become
+                millionaire.
+            </p>
+
+            <p>
+                Due to the risk averse nature, a lot of people (including me), will probalby choose the stable option.
+                However, reflecting on the toy scenario in the book, even if we choose the risky option and fail, this
+                is not a one-time done deal, in real life, we can also try again.
+            </p>
+
+            <p>
+                An argument against choosing the riskier option in real life might be, unlike the toy scenario, it is
+                harder to calculate the expected values of various options. There are more variables to consider, such
+                as family, locations, etc. True, if I were to be presented with these two options, I will still struggle
+                to make a decision. However, after reading the book, I think I will lean towards the riskier option more
+                compared to my former self. After all, it is true that we can always try again even if we fail.
+            </p>
+
+            <p>
+                Looking back to various choices I have made in my life, I did make various choices, some were safe, such
+                as
+                choosing the undergraduate university that I got accepted into, some were risky, such as choosing to
+                do a PhD in Canada instead of US, or directly find a comfortable job. And believe it or not, I haven't
+                regretted any of my choices so far, and I don't think this is because I always choose the right choices,
+                even if I chose the alternatives, I believe I still won't regret them and be content with my life,
+                because I did it my way, as the song says. However, I do wish that I will have the courage to make
+                riskier
+                choices from now on, and tackling more challenges instead of settling.
+            </p>
+
+            <p>
+                I am also being reminded of the book Determined, where the author argues the future is pretty much
+                determined,
+                maybe up to some quantum indeterminstic that we have no control over. To me, this is another motivation
+                to take
+                more chances, after all, these are not chances after all, just determinstic events that are bound to
+                happen.
+            </p>
+
+            <p>
+                So here is a new resolution for me, do not be afraid of taking chances.
+            </p>
+
+
+            <hr>
+
+            <p style="font-size:1em; color: var(--muted-color);">
+                Questions or corrections? Reach me at
+                <a href="mailto:zxieaa@gmail.com">zxieaa@gmail.com</a>.
+            </p>
+        </article>
+    </main>
+</body>
+
+</html>
